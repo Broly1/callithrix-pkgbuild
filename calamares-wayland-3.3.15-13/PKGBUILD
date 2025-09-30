@@ -9,7 +9,7 @@ pkgrel=13
 pkgdesc='Distribution-independent installer framework'
 arch=('i686' 'x86_64')
 license=(GPL)
-url="https://github.com/calamares/calamares/releases"
+url="https://github.com/buildra/calamares/releases"
 license=('LGPL')
 #'appstream-qt5' out as dependency and on iso
 provides=('calamares')
@@ -55,7 +55,7 @@ backup=('usr/share/calamares/modules/bootloader.conf'
         'usr/share/calamares/modules/initcpio.conf'
         'usr/share/calamares/modules/unpackfs.conf')
 
-source=("calamares::https://github.com/Broly1/calamares/archive/refs/tags/$pkgver-$pkgrel.tar.gz"
+source=("calamares::https://github.com/buildra/calamares/archive/refs/tags/$pkgver-$pkgrel.tar.gz"
 	"cal-callithrix-debugging.desktop"
 	"calamares_polkit")
 
