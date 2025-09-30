@@ -61,8 +61,8 @@ source=("calamares::https://github.com/buildra/calamares/archive/refs/tags/$pkgv
 	"calamares_polkit")
 
 sha256sums=('ad966324a295b8ed7856a1a32f6574d31c184e588dad20145b81b9b95e9f9a3d'
-            'c518c273c165fb406cff4d4342d32e0d00adc9116bead78e516611bd89cd1e9e'
-            'c8504dd647bd3bde08d0d097d3aecbe4f668297ab532dc70e1e0f77783ef65e2'
+            'c46ce0a116c07f9d007253e3604be3a8c6d2eebf17fca6d6ea7ada379389d868'
+            '9b2177b39474aad65f9e8b2445bb1975325493ec49bffa3a6ffccb3b306669fc'
             '966c5f0834039dc6a7529e75f70417ba2510b1e643ffb49fd25855ce9dc244b4')
 
 prepare() {
