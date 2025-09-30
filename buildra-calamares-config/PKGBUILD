@@ -1,13 +1,13 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
-pkgname=buildra-calamares-config
-_pkgname=buildra-calamares-config
+pkgname=callithrix-calamares-config
+_pkgname=callithrix-calamares-config
 _destname1="/etc"
 _destnamescript="/usr/bin"
 pkgver=25.06
 pkgrel=09
-pkgdesc="calamares config for buildra"
+pkgdesc="calamares config for callithrix"
 arch=('any')
-url="https://github.com/buildra/${_pkgname}"
+url="https://github.com/Broly1/${_pkgname}"
 license=('GPL3')
 makedepends=('git')
 depends=()

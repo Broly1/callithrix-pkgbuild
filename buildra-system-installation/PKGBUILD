@@ -1,13 +1,13 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
-pkgname=buildra-system-installation
-_pkgname=buildra-system-installation
+pkgname=callithrix-system-installation
+_pkgname=callithrix-system-installation
 _destname1="/etc"
 _destname2="/usr"
 pkgver=25.06
 pkgrel=03
-pkgdesc="system installation config for buildra"
+pkgdesc="system installation config for callithrix"
 arch=('any')
-url="https://github.com/buildra/${_pkgname}"
+url="https://github.com/Broly1/${_pkgname}"
 license=('GPL3')
 makedepends=('git')
 depends=()
