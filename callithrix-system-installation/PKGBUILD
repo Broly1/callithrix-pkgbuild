@@ -1,10 +1,10 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
 pkgname=callithrix-system-installation
-_pkgname=callithrix-system-installation
+_pkgname=callithrix-system-installation.git
 _destname1="/etc"
 _destname2="/usr"
 pkgver=25.10
-pkgrel=04
+pkgrel=06
 pkgdesc="system installation config for callithrix"
 arch=('any')
 url="https://github.com/Broly1/${_pkgname}"

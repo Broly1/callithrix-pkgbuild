@@ -57,12 +57,10 @@ backup=('usr/share/calamares/modules/bootloader.conf'
 
 source=("calamares::https://github.com/buildra/calamares/archive/refs/tags/$pkgver-$pkgrel.tar.gz"
 	"cal-callithrix.desktop"
-	"cal-callithrix-debugging.desktop"
 	"calamares_polkit")
 
 sha256sums=('ad966324a295b8ed7856a1a32f6574d31c184e588dad20145b81b9b95e9f9a3d'
             'c46ce0a116c07f9d007253e3604be3a8c6d2eebf17fca6d6ea7ada379389d868'
-            '9b2177b39474aad65f9e8b2445bb1975325493ec49bffa3a6ffccb3b306669fc'
             '966c5f0834039dc6a7529e75f70417ba2510b1e643ffb49fd25855ce9dc244b4')
 
 prepare() {
@@ -118,7 +116,6 @@ package() {
 	cd ${_pkgname}-${pkgver}-${pkgrel}/build
 	DESTDIR="${pkgdir}" cmake --build . --target install
 	install -Dm644 "$srcdir/cal-callithrix.desktop" "$pkgdir/usr/share/applications/cal-callithrix.desktop"
-	install -Dm644 "$srcdir/cal-callithrix-debugging.desktop" "$pkgdir/usr/share/applications/cal-callithrix-debugging.desktop"
 	install -Dm755 "$srcdir/calamares_polkit" "$pkgdir/usr/bin/calamares_polkit"
 	rm "$pkgdir/usr/share/applications/calamares.desktop"
 }
